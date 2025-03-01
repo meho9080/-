@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>النشيد في الطريقة الشاذلية</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleLyrics(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>النشيد في الطريقة الشاذلية</h1>
+    </header>
+
+    <section class="nasheed">
+        <h2>بيتُ قَلبي حَرَمُ الحُبِّ</h2>
+        <button onclick="toggleLyrics('lyrics1')">عرض الكلمات</button>
+        <div id="lyrics1" class="lyrics" style="display: none;">
+            <p>بيتُ قَلبي حَرَمُ الحُبِّ لهُمْ ... ها هوَ البيتُ وهذا الحَرَمُ</p>
+            <p>قِسمَةٌ ترسِمُ أنِّي عبدُهُمْ ... ومن الآزالِ تَجري القِسَمُ</p>
+            <p>كيفَ لا تأخُذُ قَلبي لوعَتي ... وأَنا عبدٌ بَعيدٌ عنهُمُ</p>
+            <p>سادَةُ الحَيِّ الَّذينَ اشْتَهَروا ... ودَرَتْهُمْ في البَرايا الأُمَمُ</p>
+        </div>
+        <div class="video">
+            <a href="https://youtu.be/TCOaR2VB_PU?si=shOu2ffDm9hc2sW_" target="_blank">مشاهدة الأنشودة على يوتيوب</a>
+        </div>
+    </section>
+
+    <section class="nasheed">
+        <h2>لمّا بدا منك القبول</h2>
+        <button onclick="toggleLyrics('lyrics2')">عرض الكلمات</button>
+        <div id="lyrics2" class="lyrics" style="display: none;">
+            <p>لمّا بدا منكَ القبول ... أخرجتُ من سجن الأسا</p>
+            <p>وزجَّ بي عين الوصول ... وصرتُ بك مؤنسا</p>
+            <p>ولست من قلبي تزول ... بينَ الصباحِ والمساء</p>
+            <p>ألنّظره فيك يا جميل ... نعيش بها عيشا رغَد</p>
+        </div>
+        <div class="video">
+            <a href="https://youtu.be/GrXBhUr0YZs?si=MlPKmVuG2bwaBltF" target="_blank">مشاهدة الأنشودة على يوتيوب</a>
+        </div>
+    </section>
+
+    <section class="nasheed">
+        <h2>ليلاً سرى وأمَّ بالأنبيا</h2>
+        <button onclick="toggleLyrics('lyrics3')">عرض الكلمات</button>
+        <div id="lyrics3" class="lyrics" style="display: none;">
+            <p>ليلاً سرى وأمَّ بالأنبيا ... المرضيَّة</p>
+            <p>والطالبْ رأَى المطلُوب ... في الحضرَة القدسيَّة</p>
+            <p>رقَى على البراقِ ... للسَّبعةِ الطّباقِ</p>
+            <p>راجي مِن الخلَّاقِ ... عفواً عَن الخطيَّة</p>
+        </div>
+        <div class="video">
+            <a href="https://youtu.be/EQh8Pks0lmQ?si=KhEe3omQoulq8CO5" target="_blank">مشاهدة الأنشودة على يوتيوب</a>
+        </div>
+    </section>
+
+    <section class="nasheed">
+        <h2>ربي خلق طه من نور</h2>
+        <button onclick="toggleLyrics('lyrics4')">عرض الكلمات</button>
+        <div id="lyrics4" class="lyrics" style="display: none;">
+            <p>ربي خلق طه من نور ... فيه احترم</p>
+            <p>ناداه أقبل يا مختار ... أنت الأمين</p>
+            <p>لما ارتقى البيت المعمور ... صلى إمام</p>
+            <p>وقد دنا من ربه الباهي الجليل</p>
+        </div>
+        <div class="video">
+            <a href="https://youtu.be/I2a74xby7M8?si=lvNiUTE_9WnoI-d1" target="_blank">مشاهدة الأنشودة على يوتيوب</a>
+        </div>
+    </section>
+
+    <section class="nasheed">
+        <h2>صلاة الله ذي الكرم</h2>
+        <button onclick="toggleLyrics('lyrics5')">عرض الكلمات</button>
+        <div id="lyrics5" class="lyrics" style="display: none;">
+            <p>صلاة الله ذي الكرم ... على المختار في القدم</p>
+            <p>رسول الله من مضر ... إمام البيت والحرم</p>
+            <p>به الرحمن أسراه ... وبالمعراج أدناه</p>
+            <p>ومن علياه ناداه ... وشرَّفه على الأمم</p>
+            <p>إله الخلق يكرمه ... ومن يهواه يرحمه</p>
+        </div>
+        <div class="video">
+            <a href="https://youtu.be/AmE42W4Pu_k?si=g2QOqClvcrJAOZZe" target="_blank">مشاهدة الأنشودة على يوتيوب</a>
+        </div>
+    </section>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.nasheed {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004080;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.lyrics {
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.video a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.video a:hover {
+    background-color: #cc5500;
+}
